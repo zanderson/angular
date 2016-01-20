@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="paragraph">
+<head>
+	<title>ANGULAR! 1st Exercise</title>
+	<link rel="stylesheet" type="text/css" href="main2.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="main2.js"></script>
+</head>
+<body ng-controller="paragraphcontroller">
+
+<!-- PART2 -->
+<button ng-click="exclamation()">Add Exclamation Point</button>
+
+<h1>Hello Angular{{addmark}} You're fancy{{addmark}}</span></h1>
+<h2><a href="www.yahoo.com" target="new" ng-click="event.preventDefault()">Learn more about Angular</a></h2>
+<h3>Today is Wednesday - 1/20/2016.</h3>
+<p ng-class="{pink: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+
+</body>
+
+</body>
+</html>
+
+<!-- Part II
+Create an HTML page with some filler content including some paragraphs, headings, and links.
+When a paragraph is moused over, turn the text of that paragraph pink.
+Add an exclamation point to the end of each heading.
+When a link is clicked, confirm that the user wants to navigate to that url. If the user clicks OK, allow the default behavior of the link to be executed. If the user clicks cancel, cancel the default browser behavior by calling event.preventDefault() on the event object.
+When a link is clicked and the user chooses not to go to the url, remove the link from the DOM.
+ -->
+
+

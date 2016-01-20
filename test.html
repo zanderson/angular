@@ -1,0 +1,24 @@
+
+<html ng-app="directy">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+    </head>
+    <body>
+    <h1>Here It Is</h1>
+    <h2>hello</h2>
+    </body>
+    <script>
+        angular.module('directy', [])
+            .directive('h1';'h2', function(){
+                var directive = {
+                link: link,
+                restrict: 'E'
+            };
+            return directive;
+
+            function link(scope, element, attrs) {
+                element.text(element.text() + '!');
+            }
+            });
+    </script>
+</html>
